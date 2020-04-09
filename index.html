@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="navigation">
+        <a href="#">Navbar</a>
+        <select name="" id="themeSelect">
+          <option value="light">Light theme</option>
+          <option value="dark">Dark theme</option>
+        </select>
+      </section>
+      <section class="header-title">
+        <span>To Do List</span>
+      </section>
+      <section class="create-new-task">
+        <form class="form-create-new-task" action="" name="create-task">
+          <input type="text" name="title" placeholder="Title task" />
+          <input type="text" name="body" placeholder="Body task" />
+          <button class="add-task" type="submit">Add task</button>
+        </form>
+      </section>
+      <section class="tasks">
+        <form name="form-list-option">
+          <button type="button" name="show-all-tasks">show all tasks</button>
+          <button type="button" name="show-incomplited-tasks">
+            show incomplete tasks
+          </button>
+        </form>
+        <ul class="tasks-list" name="tasks-list">
+          <p class="no-task-message">Список пуст</p>
+          <!-- <li class="task-item">
+                    <h3>Заголовок задачи</h3>
+                    <p>Описание задачи Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quibusdam eum, ad est recusandae doloremque non odit dicta quisquam ex vitae quasi dignissimos aliquam, dolorum, tempora eaque hic iure odio.</p>
+                    <button>Удалить</button>
+                </li> -->
+        </ul>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
